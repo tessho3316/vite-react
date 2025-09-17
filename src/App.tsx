@@ -28,8 +28,17 @@ export const Senni= () => {
   return (
     <div>
       <h1>
-        遷移しました。
+        purofile
       </h1>
+      <p>
+        名前:藤貫　哲生
+      </p>
+      <p>
+        20歳
+      </p>
+      <p>
+        好きなアーティスト:PEOPLE1
+      </p>
     </div>
   )
 }
