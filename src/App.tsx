@@ -26,7 +26,7 @@ export const TitlePage = () => {
 export const Senni= () => {
 
   return (
-    <div>
+    <div className='profile'>
       <h1>
         profile
       </h1>
@@ -34,10 +34,11 @@ export const Senni= () => {
         名前:藤貫　哲生
       </p>
       <p>
-        20歳
-      </p>
-      <p>
-        好きなアーティスト:PEOPLE1
+        20歳<br/>
+        男<br/>
+        好きなアーティスト<br/>
+        PEOPLE1 🔥🔥🔥🔥🔥<br/>
+        vaundy 🔥🔥🔥🔥<br/>
       </p>
     </div>
   )
