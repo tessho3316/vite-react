@@ -28,7 +28,7 @@ export const Senni= () => {
   return (
     <div>
       <h1>
-        purofile
+        profile
       </h1>
       <p>
         名前:藤貫　哲生
