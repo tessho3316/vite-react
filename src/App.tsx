@@ -26,7 +26,7 @@ export const Senni= () => {
 export const My_profile = () => {
 
   return ( 
-    <div>
+    <div className='profile'>
       <MakeProfile profileId={1} />
     </div>
   )
@@ -44,7 +44,7 @@ export const Other_profiles = () => {
 export const A_profile = () => {
   return ( 
     <div className='profile'>
-      <p>aさん</p>
+      <MakeProfile profileId={2} />
     </div>
   );
 }
@@ -52,7 +52,7 @@ export const A_profile = () => {
 export const B_profile = () => {
   return ( 
     <div className='profile'>
-      <p>bさん</p>
+      <MakeProfile profileId={3} />
     </div>
   );
 }
@@ -60,7 +60,7 @@ export const B_profile = () => {
 export const C_profile = () => {
   return ( 
     <div className='profile'>
-      <p>cさん</p>
+      <MakeProfile profileId={4} />
     </div>
   );
 }

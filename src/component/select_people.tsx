@@ -17,10 +17,13 @@ export const SelectPeople = () => {
 
     return (
         <div>
-            <div className="buttons">
-                    <button className="login-btn" onClick={onMoveAProfile}>Aさんのプロフィールを見る</button>
-                    <button className="start-btn" onClick={onMoveBProfile}>Bさんのプロフィールを見る</button>
-                    <button className="start-btn" onClick={onMoveCProfile}>Cさんのプロフィールを見る</button>
+            <div className="list">
+                    <button className="item" onClick={onMoveAProfile}>太郎<br/>
+                    Ms.GREEN APPLE</button>
+                    <button className="item" onClick={onMoveBProfile}>花子<br/>
+                    あいみょん,米津玄師</button>
+                    <button className="item" onClick={onMoveCProfile}>ねね<br/>
+                    マカロニえんぴつ,go!go!vanillas,サカナクション</button>
             </div>
         </div>
     );
