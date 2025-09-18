@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Login } from './component/login';
 import { SelectPages } from './component/select_pages';
 import { SelectPeople } from './component/select_people';
+import { MakeProfile } from './component/make-profile';
 
 export const TitlePage = () => {
 
@@ -26,7 +27,7 @@ export const My_profile = () => {
 
   return ( 
     <div>
-      <p>a</p>
+      <MakeProfile profileId={1} />
     </div>
   )
 }
