@@ -58,3 +58,43 @@
   width: 100vw;
   background-color: #f9f9f9;
 }
+
+/* 全体の背景やフォントを設定 */
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ボタンを囲むコンテナのスタイル */
+.list {
+  display: flex; /* Flexboxを有効化 */
+  flex-direction: column; /* 要素を縦に並べる */
+  align-items: center; /* 中央揃え */
+  gap: 1.5rem; /* 各ボタン（カード）の間隔 */
+}
+
+/* ボタン（カード）の基本スタイル */
+.item {
+  width: 80%; /* 幅 */
+  max-width: 400px; /* 最大幅 */
+  padding: 1.5rem; /* 内側の余白 */
+  border: none; /* デフォルトの枠線を消す */
+  border-radius: 12px; /* 角を丸くする */
+  background-color: #ffffff; /* 背景色を白に */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 影をつけて立体感を出す */
+  text-align: left; /* 文字を左揃えに */
+  cursor: pointer; /* カーソルをポインターに */
+  transition: all 0.2s ease-in-out; /* アニメーションを滑らかに */
+
+  /* ボタン内の文字のスタイル */
+  font-size: 1rem; /* 文字サイズ */
+  line-height: 1.6; /* 行の高さ */
+  color: #333;
+}
+
+/* マウスが乗った時のスタイル */
+.item:hover {
+  transform: translateY(3px); /* 少し上に浮き上がる */
+}
