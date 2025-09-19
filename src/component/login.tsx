@@ -8,6 +8,9 @@ export const Login = () => {
     const onMovePage = () => {
     navigation("/Senni");
     }
+    const onMoveEvent = () => {
+        navigation("/DemoEvent");
+        }
 
     return (
         <div>
@@ -21,6 +24,7 @@ export const Login = () => {
                     <button className="login-btn">ログイン</button>
                     <button className="signup-btn">新規登録</button>
                     <button className="start-btn" onClick={onMovePage}>テストログイン</button>
+                    <button className="start-btn" onClick={onMoveEvent}>テストイベント</button>
             </div>
         </div>
     );

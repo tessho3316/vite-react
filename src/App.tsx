@@ -4,6 +4,7 @@ import { Login } from './component/login';
 import { SelectPages } from './component/select_pages';
 import { SelectPeople } from './component/select_people';
 import { MakeProfile } from './component/make-profile';
+import { DemoEventPage } from './component/demoEventPage';
 
 export const TitlePage = () => {
 
@@ -37,6 +38,15 @@ export const Other_profiles = () => {
   return ( 
     <div className='profile'>
       <SelectPeople />
+    </div>
+  );
+}
+
+export const DemoEvent = () => {
+
+  return ( 
+    <div>
+      <DemoEventPage />
     </div>
   );
 }
@@ -161,6 +171,7 @@ export const App = () => {
         <Route path="/Senni" element={<Senni />} />
         <Route path="/my_profile" element={<My_profile />} />
         <Route path="/other_profiles" element={<Other_profiles />} />
+        <Route path="/DemoEvent" element={<DemoEvent />} />
         <Route path="/A_profile" element={<A_profile />} />
         <Route path="/B_profile" element={<B_profile />} />
         <Route path="/C_profile" element={<C_profile />} />
