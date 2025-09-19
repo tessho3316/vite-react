@@ -1,4 +1,4 @@
-import { MakeProfile } from './make-profile';
+import { SelectPeople } from './select_people';
 
 export const DemoEventPage = () => {
 
@@ -8,12 +8,7 @@ export const DemoEventPage = () => {
             <p>開催場所: 千葉県蘇我市</p>
             <h3>登録中のユーザー</h3>
             <div className='profile'>
-                <MakeProfile profileId={2} />
-                <MakeProfile profileId={3} />
-                <MakeProfile profileId={4} />
-                <MakeProfile profileId={5} />
-                <MakeProfile profileId={6} />
-                <MakeProfile profileId={7} />
+                <SelectPeople />
             </div>
         </div>
     );
