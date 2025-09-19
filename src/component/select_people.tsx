@@ -44,9 +44,6 @@ export const SelectPeople = () => {
         const onMoveMProfile = () => {
         navigation("/M_profile");
     }
-        const onMoveNProfile = () => {
-        navigation("/N_profile");
-    } 
 
     return (
         <div>

@@ -155,13 +155,6 @@ export const M_profile = () => {
   );
 }
 
-export const N_profile = () => {
-  return ( 
-    <div className='profile'>
-      <MakeProfile profileId={15} />
-    </div>
-  );
-}
 
 export const App = () => {
   return (
@@ -185,7 +178,6 @@ export const App = () => {
         <Route path="/K_profile" element={<K_profile />} />
         <Route path="/L_profile" element={<L_profile />} />
         <Route path="/M_profile" element={<M_profile />} />
-        <Route path="/N_profile" element={<N_profile />} />
       </Routes>
     </BrowserRouter>
   );
